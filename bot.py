@@ -1,7 +1,7 @@
 import slack_sdk
 import os
 from pathlib import Path
-from dotenv import load_dotenv
+from dotenv.main import load_dotenv
 
 env_path = Path('.')/ '.env'
 load_dotenv(dotenv_path=env_path)
